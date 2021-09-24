@@ -191,7 +191,7 @@ img {
     .music-container {
         width: 31rem;
         height: 58rem;
-        position: fixed;
+        margin-top:-20px;
 
     }
 }
