@@ -39,7 +39,7 @@ html {
 .music-container {
     width: 38rem;
     height: 55rem;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /*background-image: url('images/music-1.png');
     */background-color: #af8c9d;
     background-image: linear-gradient(315deg, #af8c9d 0%, #8cacac 74%);
@@ -183,5 +183,14 @@ img {
         -moz-transform   : rotate(360deg);
         -ms-transform    : rotate(360deg);
         -o-transform     : rotate(360deg);
+    }
+}
+
+/* Media queries */
+@media(max-width:361px) {
+    .music-container {
+        width: 31rem;
+        height: 53rem;
+
     }
 }
